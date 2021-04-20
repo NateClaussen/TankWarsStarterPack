@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="TankWarsCopy.Game">
+			<HintPath>..\TankWarsStarter\bin\Debug\net5.0\Dep\TankWarsCopy.Game.dll</HintPath>
+		</Reference>
+		<Reference Include="TankWarsCopy.Logic">
+			<HintPath>..\TankWarsStarter\bin\Debug\net5.0\Dep\TankWarsCopy.Logic.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Images\*.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Images\*.jpg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Images\*.gif">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
