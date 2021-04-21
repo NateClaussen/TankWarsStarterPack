@@ -26,10 +26,12 @@ namespace TankWarsStarter
             //replace PlayerTanks.dll
             File.Move(RootDirectory + "\\PlayerTanks.dll", RootDirectory + "\\Dep\\PlayerTanks.dll", true);
             //Delete all images
-            foreach (var file in Directory.GetFiles(RootDirectory + "\\Dep\\Images")) {
-                File.Delete(file);
+            if (Directory.Exists(RootDirectory + "\\Dep\\Images")) {
+                foreach (var file in Directory.GetFiles(RootDirectory + "\\Dep\\Images")) {
+                    File.Delete(file);
+                }
+                Directory.Delete(RootDirectory + "\\Dep\\Images");
             }
-            Directory.Delete(RootDirectory + "\\Dep\\Images");
             //Move Images Folder to correct location...
             Directory.Move(RootDirectory + "\\Images", RootDirectory + "\\Dep\\Images");
 
