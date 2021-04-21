@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using TankWarsCopy.Game;
-using TankWarsCopy.Game.Interfaces;
-using TankWarsCopy.Game.Interfaces.ReadOnly;
-using TankWarsCopy.Logic.Interfaces;
+using TankWarsCopy.Game.Player;
+using TankWarsCopy.Logic.Player;
 
 namespace PlayerTanks
 {
@@ -15,10 +9,8 @@ namespace PlayerTanks
     {
         public override Image Image { get; } = GetImage("Tank4.jpg");
         public override string Name => "Do Nothing Tank";
-        private int count = 0;
 
-
-        public override ActionType TankAction(object variables, object me) {
+        public override ActionType TankAction(PlayerVariables variables, Tank me) {
             return ActionType.DoNothing;
         }
     }

@@ -1,21 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TankWarsCopy.Game;
-using TankWarsCopy.Game.Interfaces;
-using TankWarsCopy.Game.Interfaces.ReadOnly;
-using TankWarsCopy.Logic.Interfaces;
+using TankWarsCopy.Game.Player;
+using TankWarsCopy.Logic.Player;
 
 namespace PlayerTanks
 {
     public class DumbTank : PlayerTank
     {
         public override string Name => "Dumb Tank";
-        public override ActionType TankAction(object variables, object me) {            
+        public override ActionType TankAction(PlayerVariables variables, Tank me) {          
             Random random = new Random();
             int rand = random.Next(0, 10);
 
