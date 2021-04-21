@@ -4,7 +4,7 @@ using TankWarsCopy.Game.Interfaces.ReadOnly;
 using TankWarsCopy.Logic;
 using TankWarsCopy.Logic.Interfaces;
 
-namespace MonoGameBoard
+namespace PlayerTanks
 {
     public class TemplateTank : PlayerTank {
         public override Image Image { get; } = GetImage("<ImageName>");
