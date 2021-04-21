@@ -11,7 +11,7 @@ namespace PlayerTanks
 
         public override string Name { get; } = "<YourTankName>";
 
-        public override ActionType TankAction(PlayerVariables obj, Tank me) {
+        public override ActionType TankAction(PlayerVariables variables, Tank me) {
             return ActionType.DoNothing;
         }
     }
