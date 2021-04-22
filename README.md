@@ -3,7 +3,7 @@
 Players will create a tank that inherits from PlayerTankto compete in the arena and dominate against other tanks. 
 ## Objective
 
-####Be the last tank standing! 
+#### Be the last tank standing! 
 
 Winners are determined by the amount of points a tank accumulates by the end of a match. Even if a tank is not the last onen standing, they could potentially not get first
 place (very, very, VERY unlikely!)
