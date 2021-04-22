@@ -17,7 +17,7 @@ This is how points are determined at the end of the match:
 * 10 \* bullet accuracy (which is determined by ((Kills + AlmostKills) / Total shots)
 * 1 point if you are a super tank by the end of the match. 
 
-##What can YOU do?
+## What can YOU do?
 
 You can create your own PlayerTank 
 
