@@ -1,5 +1,5 @@
 # TankWarsStarterPack
-##Starter Pack with Tank Templates to help get started in creating your own TankWars Tank.
+## Starter Pack with Tank Templates to help get started in creating your own TankWars Tank.
 Players will create a tank that inherits from PlayerTankto compete in the arena and dominate against other tanks. 
 ## Objective
 
