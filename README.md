@@ -127,3 +127,6 @@ There are various properties that each tank has that you can use to determine wh
     
     <i>(See TemplateTank.cs for help)</i>
 4. Add your own Tank logic to create the best tank in the arena! You can choose what your tank does each tick by changing the return value in it's TankAction method.
+
+
+#### I don't think that it would feel right if I did this whole project without giving credit to the original maker of this Tank Wars game. Shoutout to Mr. Soderquist from Clearfield High School for having the original idea and implementing it in Java! Also big thanks for letting me adapt and change it to C# and allowing me to do the things that I have done! :)
