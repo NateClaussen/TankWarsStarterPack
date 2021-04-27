@@ -21,7 +21,7 @@ This is how points are determined at the end of the match:
 
 You must create your own PlayerTank that will have the best logic to beat the other tanks. 
 
-Every tick, your tank will run its tankAction method, where it will decide what to do. 
+Every tick, your tank will run its tankAction method where it will decide what to do. You change what it does by changing the return value of this method.  
 
 ### Here are the things that you can choose to do:
 
@@ -126,4 +126,4 @@ There are various properties that each tank has that you can use to determine wh
     &emsp;&emsp;c) TankAction Override
     
     <i>(See TemplateTank.cs for help)</i>
-4. Add your own Tank logic to create the best tank in the arena!
+4. Add your own Tank logic to create the best tank in the arena! You can choose what your tank does each tick by changing the return value in it's TankAction method.
