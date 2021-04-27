@@ -112,3 +112,18 @@ There are various properties that each tank has that you can use to determine wh
 | IsAlive               | Returns true if the tank is still alive, otherwise false |
 
 ###### 1. Note that if a bullet hits a bomb, then the bomb will immediately explode!
+
+## Getting Started
+#### See powerpoint presentation for full tutorial on getting started :)
+
+### Creating your first Tank
+
+1. Create a new class in the PlayerTanks Project and name it whatever you would like.
+2. Derive your class from the PlayerTank base class
+3. Generate overrides (or create them manually)<br>
+    &emsp;&emsp;a) Image Override<br>
+    &emsp;&emsp;b) Name Override<br>
+    &emsp;&emsp;c) TankAction Override
+    
+    <i>(See TemplateTank.cs for help)</i>
+4. Add your own Tank logic to create the best tank in the arena!
